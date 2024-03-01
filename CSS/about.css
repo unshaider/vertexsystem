@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: justify;
+}
+.logo{
+    width: auto;
+    height: 70px;
+    margin-left: 10px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.548);
+    position: absolute;
+    width: 100%;
+    height: 500px;
+  }
+.banner{
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+}
+.banner p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.p1{
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p2{
+    font-size: 40px;
+}
+.bottom-sections{
+    background-color: rgb(61, 61, 61) !important;
+    padding: 20px;
+}
+.aboutvs{
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+}
+.aboutvs div{
+    padding: 30px 50px;
+}
+.aboutvs img{
+    border-radius: 20px;
+}
+.card-body{
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px grey, inset 0 0 10px grey;
+    margin-top: 20px;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+    background-color: black;
+}
+.bottom h1,.bottom p{
+    text-align: left;
+}
+.bottom h1{
+    font-size: 50px;
+}
+.bottom p{
+    font-size: 18px;
+    text-align: justify;
+}
+.viruses{
+    background-color: rgb(61, 61, 61);
+}
+footer a{
+    text-decoration: none !important;
+    color: white;
+  }
+  i{
+    color: white;
+    margin-right: 10px;
+  }
+  footer p{
+    justify-content: left;
+    margin-bottom: 0;
+  }
+  .follow i{
+    font-size: 30px;
+    margin-right: 33px;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+  }
+  nav a{
+    font-size: 20px;
+  }
+  nav a:hover{
+    background-color: rgb(58, 53, 53);
+  }
